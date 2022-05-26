@@ -1,0 +1,84 @@
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li.nav-item  {
+    display: inline;
+    margin-left: 20px;
+}
+
+body {
+    background-color: rgb(201, 245, 226);
+}
+
+#name-h1 {
+    text-align: center;
+}
+#word-span{
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+}
+#about-hr{
+    background-color: aqua;
+    color: aqua;
+}
+.link-data {
+    font-size: 12px;
+    color: rosybrown;
+}
+a.link-data:link {
+    text-decoration: none;
+}
+a.link-data:visited {
+    text-decoration: none;
+}
+a.link-data:hover {
+    text-decoration: underline;
+}
+#main-ul {
+    list-style-type: none;
+}
+ul#main-ul > li {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.mood-p {
+    display: inline;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+h3 {
+    font-size: 25px;
+    font-weight: 300;
+    font-style: italic;
+}
+.footer-style{
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    margin-left: 0;
+    margin-right: 0;
+}
+/* Style for different section of footer */
+.footer-info{
+    display: inline-block;
+}
+
+.footer-image{
+    display: inline-block;
+    
+}
+/* Style for each paragraph in footer */
+.footer-para {
+    margin-top: 0;
+    margin-bottom: 0;
+}
