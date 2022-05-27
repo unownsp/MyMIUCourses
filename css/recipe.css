@@ -1,0 +1,92 @@
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li.nav-item  {
+    display: inline;
+    margin-left: 20px;
+}
+
+#about-nav {
+    background-color: white;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+body{
+    background-image: url("../docs/recipe/images/silverware.jpg");
+}
+
+.inner-list {
+    list-style-type: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+.customer-review {
+    background-color: #278a45;
+    font-style: italic;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+ol>li>ul, ul>li {
+    list-style-image: url("../docs/recipe/images/pie_bullet.png");
+}
+
+.no-bullets {
+    list-style-type: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #3e31af;
+}
+
+h1>span{
+    background-color: #dbdada79;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+#center {
+    text-align: center !important;
+}
+
+/* Style for footer main div */
+.footer-style{
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for different section of footer */
+.footer-info{
+    display: inline-block;
+}
+
+.footer-image{
+    display: inline-block;
+    
+}
+/* Style for each paragraph in footer */
+.footer-para {
+    margin-top: 0;
+    margin-bottom: 0;
+}
